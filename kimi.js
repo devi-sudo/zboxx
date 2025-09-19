@@ -605,7 +605,7 @@ bot.onText(/\/start(?: (.*))?/, async (msg, match) => {
             inline_keyboard: [
               [{ text: '🎪 𝙈𝘼𝙄𝙉 𝙑𝙄𝙋 𝘾𝙃𝘼𝙉𝙉𝙀𝙇', url: group1 }],
               [{ text: '🔞 𝘽𝘼𝘾𝙆𝙐𝙋 𝘾𝙃𝘼𝙉𝙉𝙀𝙇', url: group }],
-              [{ text: "✅ 𝗖𝗟𝗜𝗖𝗞 𝗧𝗢 𝗜𝗡𝗩𝗜𝗧𝗘", url : `https://t.me/share/url?url=https://t.me/${username}?start=pompom_${mediaGroup.hash}&text=Check out this exclusive content! `}]
+              [{ text: "✅ 𝗖𝗟𝗜𝗖𝗞 𝗧𝗢 𝗜𝗡𝗩𝗜𝗧𝗘", url : `https://t.me/share/url?url=https://t.me/${username}?start=start&text=Check out this exclusive content!`}],
             ]
           }
         }
@@ -1378,3 +1378,4 @@ app.listen(PORT, () => {
   console.log(`📊 Ads enabled: ${AD_ENABLED}`);
 
 });
+
